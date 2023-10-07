@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./dist/output.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Advice generator app</title>
+
+  
+</head>
+<body class="md:text-[28px] bg-[#202632] flex justify-center items-center h-screen">
+
+  <div class="flex flex-col rounded-xl gap-5 bg-[#313A49] m-3 p-10 relative md:max-w-[700px] ">
+      <h1 class="text-verde text-[10px] font-bold text-center uppercase tracking-[3px]" >Advice <span class="text-verde" id="idHTML" ></span></h1>
+      <p class="text-[#CEE3E9] text-center font-bold" id="adviceHTML"></p>
+      <img class="md:hidden block m-auto pb-5" src="./images/pattern-divider-mobile.svg" alt="">
+      <img class="md:block hidden m-auto pb-5" src="./images/pattern-divider-desktop.svg" alt="">
+      <!-- <img class="w-16 bg-verde p-4 rounded-full absolute -bottom-3 left-1/2 transform -translate-x-1/2"  src="./images/icon-dice.svg" alt=""> -->
+      
+      <button id="rolldice" class="bg-verde rounded-full w-12 p-3 flex absolute -bottom-5 left-1/2 transform -translate-x-1/2 justify-center hover:bg-[#52ffa8] 
+      shadow-xl hover:brightness-125">
+        <img class="" src="./images/icon-dice.svg" alt="">
+      </button>
+      
+  </div>
+  
+
+  <!-- Advice #Advice ID goes here -->
+
+  <!-- "Advice text goes here" -->
+  
+</body>
+<script src="index.js"></script>
+</html>
